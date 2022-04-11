@@ -304,6 +304,7 @@ button.banner__button {
 }
 .footer__about {
 	display: flex;
+	justify-content: center;
 	gap: 100px;
 	margin-bottom: 80px;
 }
@@ -325,17 +326,15 @@ button.banner__button {
 	line-height: 130%;
 	margin-bottom: 47px;
 }
-
 .footer__socials {
 	display: flex;
 	justify-content: flex-start;
-	gap: 10px;
+	gap: 25px;
 }
 .footer__socials img{
 	width: 22px;
 	height: 22px;
 }
-
 .footer__bottom-nav {
 	display: flex;
 	flex-basis: 904px;
@@ -346,29 +345,23 @@ button.banner__button {
 	flex-direction: column;
 	gap: 20px;
 }
-
 .bottom-nav_row li:first-child {
 	margin-bottom: 11px;
 }
-
 .bottom-nav_row span {
 	font-size: 16px;
 	font-weight: 500;
 	text-shadow: 0 0 4px;
 }
-
 .footer__license {
-		padding: 0 135px 0 135px;
+		padding: 0 9.375% 0 9.375%;
 }
 .footer__license ul  {
 	display: flex;
 	justify-content: flex-start;
 	gap: 30px;
 }
-
 .footer__license li:first-child {
 	align-self: flex-start;
 	margin-right: auto;
-
-
 }
