@@ -36,6 +36,9 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;padding: 0;margin: 0;border: 0;}
 /*--------------------*/
+html {
+/*	scroll-behavior: smooth;
+*/}
 body {
 	font-family: 'Raleway', serif;
 }
@@ -61,7 +64,7 @@ body {
 	height: 100%;
 }
 .wrapper {
-	width: 81.25%;
+	width:  81.25%;
 	margin: 0 auto;
 	position: relative;
 	text-align: center;
@@ -107,6 +110,12 @@ h1 {
 	background: orange;
 	border-radius: 0 20px;
 	margin: 50px 0 212px 0;
+}
+.platform__scroll {
+	position: relative;
+}
+p.scroll {
+	position: fixed;
 }
 img.platform__pict-1,img.platform__pict-2 {
 	position: absolute;
@@ -247,6 +256,7 @@ button.format-button {
 .courses__popular {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 	gap: 30px;
 	margin-bottom: 60px;
 }
@@ -298,9 +308,8 @@ button.banner__button {
 .footer {
 	display: flex;
 	flex-direction: column;
-	color: #353A5A;
-	padding-top: 200px;
-	padding-bottom: 30px;
+	color: #000;
+	padding: 135px 135px 30px 135px;
 }
 .footer__about {
 	display: flex;
@@ -312,8 +321,8 @@ button.banner__button {
 	display: flex;
 	flex-direction: column; 
 	justify-content: center;
-	margin-left: 135px;
-	flex-basis: 270px;
+/*	margin-left: 135px;
+*/	flex-basis: 270px;
 }
 .footer__logo {
 	width: 170px;
@@ -354,8 +363,8 @@ button.banner__button {
 	text-shadow: 0 0 4px;
 }
 .footer__license {
-		padding: 0 9.375% 0 9.375%;
-}
+/*		padding: 0 9.375% 0 9.375%;
+*/}
 .footer__license ul  {
 	display: flex;
 	justify-content: flex-start;
